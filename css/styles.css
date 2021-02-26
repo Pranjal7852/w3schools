@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* header */
+#header{
+  position: relative;
+  padding: 20px 10px;
+}
+
+#header img{
+  position:
+  left: 0px;
+  width: 300px;
+  height: auto;
+}
+#header p{
+  letter-spacing: 2px;
+  display: inline;
+  position: absolute;
+  top: 30px;
+  right: 140px;
+}
+#header button{
+position: absolute;
+top: 24px;
+right: 40px;
+color: #fff;
+font-size: 16px;
+background-color: #61b15a;
+padding: 5px 10px;
+border: none;
+border-radius: 5px;
+}
+#header button:hover{
+  position: absolute;
+top: 24px;
+right: 40px;
+color: #fff;
+font-size: 16px;
+background-color: #5aa469;
+padding: 5px 10px;
+border: none;
+border-radius: 5px;
+}
+/* LIst */
+#list{
+position: relative;
+background-color: #5aa469;
+height : 100px;;
+}
+#list .left{
+  position: absolute;
+  top 15px;
+  left: 0;
+}
+#list .right{
+  position: absolute;
+  top 15px;
+  right: 0;
+}
+.list-item{
+  display: inline;
+ font-size: 20px;
+ background-color: #61b15a;
+ text-align: center;
+ padding: 15px;
+ color: #fff;
+ cursor: pointer;
+}
+.list-item:hover{
+  display: inline;
+ font-size: 20px;
+ background-color: #fff;
+ text-align: center;
+ padding: 15px;
+ color: #000;
+ cursor: pointer;
+}
